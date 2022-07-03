@@ -13,14 +13,14 @@ variable "vpc_name" {
 
 variable "auto_mode" {
   type = bool
-  default = false
+//  default = false
   description = "Parametr assignet create automatic or manual"
 }
 
 
 variable "subnet_name" {
   type = string
-  default = "lake-subnet"
+//  default = "lake-subnet"
   description = "Subnet name"
 
 }
@@ -40,20 +40,14 @@ variable "region" {
 
 variable "router_gw_name" {
   type = string
-  default = "gw-local"
+//  default = "gw-local"
   description = "Router gateway name"
 
 }
 
 variable "router_nat_name" {
   type = string
-  default = "nat-local"
+//  default = "nat-local"
   description = "Router NAT name"
 
 }
-
-//variable "zone" {
-//  type = string
-//  default = "us-central1-a"
-//  description = "zone for subnet"
-//}

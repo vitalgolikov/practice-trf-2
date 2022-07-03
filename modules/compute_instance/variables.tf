@@ -5,7 +5,7 @@ variable "name" {
 
 variable "machine_type" {
   type = string
-  default = "f1-micro"
+//  default = "f1-micro"
   description = "machine type"
 
 }
@@ -18,14 +18,14 @@ variable "zone" {
 
 variable "image" {
   type = string
-  default = "debian-cloud/debian-9"
+//  default = "debian-cloud/debian-9"
   description = "Installed image OS"
 
 }
 
 variable "startup_script" {
   type = string
-  default = "./modules/compute_instance/runonce.sh"
+//  default = "./modules/compute_instance/runonce.sh"
   description = "Startup script for instace"
 
 }
@@ -42,13 +42,13 @@ variable "subnetwork" {
 
 variable "ip_address_name" {
   type = string
-  default = "my-host"
+//  default = "my-host"
   description = "IP address for  instance"
 }
 
 variable "ip_address_type" {
   type = string
-  default = "INTERNAL"
+ // default = "INTERNAL"
   description = "IP address type"
 }
 
@@ -66,18 +66,18 @@ variable "ip" {
 variable "hdd_name" {
   type = string
   description = "hdd name"
-  default = "hdd01"
+ // default = "hdd01"
 }
 
 variable "hdd_size" {
   type = string
-  default = "8"
+//  default = "8"
   description = "hdd size"
 }
 
 variable "hdd_type" {
   type = string
-  default = "pd-balanced"
+//  default = "pd-balanced"
   description = "hdd type"
 
 }
